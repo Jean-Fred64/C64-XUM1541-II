@@ -4,6 +4,7 @@ The firmware that goes onto the Arduino Pro Micro is often referred to as an  Ar
 This document will for the most part focus on MS Windows as that is what I have, for all other systems you'll need to fill in quite a few of the gaps yourself. While you may not need to perform all of these steps exactly as described within this document, there are enough of little pitfalls that you can quicly fall into. For that reason I recommend that you read through the entire document before attempting to install any of the components, then do **exactly** as described. 
 
 - [1.1> Flashing AVR](#11-flashing-avr)
+- [1.1.2> YT tuto install XUM1541-II](#112-YT-tuto-install-XUM1541-II)
 - [1.2> Install USB-driver](#12-install-usb-driver)
 - [1.3> Install OpenCBM](#13-install-opencbm)
 - [1.4> Try copying a disk](#14-try-copying-a-disk)
@@ -34,12 +35,19 @@ If all things go as expected you should get something like the following, just i
 
 At this point the Arduino Pro Micro has seized being an Arduino Pro Micro, it is now a XUM1541. Disconnect the USB-cable and then reconnect it, you should now get a new notification from Windows about an xum1541 having been plugged in instead. Without installing USB-drivers it won't work, so let's do that next.
 
+## 1.1.2> YT tuto install XUM1541-II
+
+
+
 ## 1.2> Install USB-driver
 The next step is installing a USB-driver suitable for use with the XUM1541, the easiest way of doing this is by using a driver installer called [Zadig](https://zadig.akeo.ie/). List all devices from the *options* dropdown-menu, then locate the XUM1541 device in the device listing. In the target section of the driver selection, click up/down until it says **libusb-win32**. Now you can finally click install/reinstall driver in a form that should hopefully work (refer to picture below if needed).
 
 ![Zadig](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/documentation/zadig002.png)
 
 **NB!** Later in this document, we'll get to the installation of OpenCBM. As part of the installation, it'll ask you for permission to install a USB-driver for you - this won't work and it'll just override the driver we just installed. If you did this, then from Zadig - you'll need to enable *List all Devices* from *Options* and then select the xum1541 device from the dropdown list and then click *replace driver*. Do **NOT** randomly mess around with any of the other devices listed, the results probably won't be easy to fix.
+
+**NB!** Nibtools may not work if the USB driver is not configured correctly.
+Try installing the **libusbK (v3.1.0.0)** or **WinUSB (v6.1.7600.16385)** driver instead of **libusb-win32** if Nibtools does not work.
 
 Remember earlier when we checked out *Device Manager*? Before continuing I recommend ensuring that the XUM1541 is now listed as expected, it should now show up in a different section than where we found the Arduino Pro Micro (back when it was an Arduino). For reference, see the picture below.
 
