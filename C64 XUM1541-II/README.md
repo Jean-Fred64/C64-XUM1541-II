@@ -1,9 +1,11 @@
 # C64 XUM1541-II
-If you came to this github-repository looking for the implementation of an XUM1541, then you've come to the correct place and this folder contains all of the files needed to build one for yourself. The necessary details first of course, I didn't design the original XUM1541 - the earlier heavy lifting was already done and detailed in an  article [online](https://myoldcomputer.nl/commodore-64/xum1541-promicro/). My contribution was reading it, then adapting it for easier use by designing a PCB as part of a personal project available at [C64 XUM1541](https://github.com/tebl/C64-XUM1541).
+If you came to this github-repository looking for the implementation of an XUM1541, then you've come to the correct place and this folder contains all of the files needed to build one for yourself. The necessary details first of course, I didn't design the original XUM1541 - the earlier heavy lifting was already done and detailed in an  article [online](https://myoldcomputer.nl/commodore-64/xum1541-promicro/).
+
+My contribution was adapting the IEC-bus for DIN 5mm and DIN 10mm. Original design project available at [C64 XUM1541-II](https://github.com/tebl/C64-XUM1541-II).
 
 ![C64 XUM1541-II](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/build_005.jpg)
 
-This however is an updated version from that design, mainly by integrating the 7406 inverter as described in the [OpenCBM](https://github.com/zyonee/opencbm/tree/master/xum1541) documentation. In theory this should allow the device some more durability when used together with multiple devices connected to the IEC-bus, but while I haven't had any issue with the original device - the main objective was to modify it for use with the later versions of the OpenCBM firmware (0.8). A secondary objective was to make it a more visually pleasing device from the original, which is pretty hard when dealing with a bare PCB - so I designed a separate faceplate to be installed on the top though this is a completely optional addition.
+This however is an version integrating the 7406 inverter as described in the [OpenCBM](https://github.com/zyonee/opencbm/tree/master/xum1541) documentation. In theory this should allow the device some more durability when used together with multiple devices connected to the IEC-bus.
 
 ![C64 XUM1541-II with faceplate](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/build_006.jpg)
 
