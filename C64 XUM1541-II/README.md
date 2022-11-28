@@ -63,19 +63,19 @@ When ready to test things out, we need to do some safety notifications - mainly,
 Ensure that the 1541 disk drive as well as the C64 XUM1541-II is not powered on, now connect the  IEC cable between them. Power on the disk drive, then plug the device into your modern computer. Go through the final section of my [firmware]([document](https://github.com/tebl/C64-XUM1541-II/blob/main/documentation/firmware.md)) document for some initial hints on copying your first disk, check out the software directory for a few of the batch files I personally use with the device if you just want some basic functionality without looking into all of the options (see OpenCBM documentation for that).
 
 # 2> Schematic
-The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/C64-XUM1541-II/tree/main/documentation/schematic) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
+The schematic is also available in [PDF-format](https://github.com/Jean-Fred64/C64-XUM1541-II/blob/Jean-Fred/documentation/schematic/C64%20XUM1541-II.pdf)
 
 # 3> BOM
 Most parts should be easy to get a hold of from your favourite local electronic component shop, but given that I don't have access to such shops where I live so everything was based on whatever I could get cheapest from eBay/AliExpress (free shipping, but plan on waiting 3-4 weeks for delivery). 
 
 | Reference             | Item                                                              | Count | Order  |
 | --------------------- | ----------------------------------------------------------------- | ----- | ------ |
-| Cartridge PCB         | Fabricate using Gerber files                                      |     1 | [PCBWay](https://www.pcbway.com/project/shareproject/C64_XUM1541_II.html)
-| Faceplate PCB         | Fabricate using Gerber files                                      |    (1)| [PCBWay FA1](https://www.pcbway.com/project/shareproject/C64_XUM1541_II__Faceplate_FA1_.html)
+| Cartridge PCB         | Fabricate using Gerber files                                      |     1 | 
+| Faceplate PCB         | Fabricate using Gerber files                                      |    (1)| 
 | A1 *                  | Arduino Pro Micro                                                 |     1 |
 | C1                    | 100nF ceramic capacitor (5mm pin spacing)                         |     1 |
 | D1,D2                 | 5mm LED                                                           |    (2)|
-| J1                    | Female S-terminal 6pin DIN PCB                                    |     1 |
+| J1                    | Female S-terminal 6pin DIN PCB (5mm or 10 mm)                     |     1 |
 | J2                    | 2x10 male IDC socket                                              |   (1) |
 | R1,R4 **              | 470 ohm resistor                                                  |    (2)| 
 | R2,R3,R5,R6,R7        | 100k ohm resistor                                                 |     5 | 
@@ -85,7 +85,7 @@ Most parts should be easy to get a hold of from your favourite local electronic 
 | Mounting ***          | Nylon M3x6mm nylon screws                                         |    (4)|
 | Mounting ***          | M3 nylon nut                                                      |    (4)|  
 
-*) I've purchased a couple of different Arduino Pro Micro boards that had a different physical size, so take care to match up the pins to the PCB so that you solder it up to match the board you own. 
+*) Arduino Pro Micro boards that had a different physical size, so take care to match up the pins to the PCB so that you solder it up to match the board you own. 
 
 **) The value to be installed here needs to match the LEDs installed, value should be acceptable for most cheaper LEDs. If the using LEDs in any way listed as bright or are in any way clear, you'll need to calculate a suitable value in order to not blind yourself when looking at them.
 
