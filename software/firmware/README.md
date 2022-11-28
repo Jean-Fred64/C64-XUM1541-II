@@ -1,1 +1,0 @@
-The firmware found in this directory was distributed as part of the repository at https://github.com/zyonee/opencbm/tree/master/xum1541. It is included here as a last known working firmware revision, later versions may have updates that have not been tested with this device.
