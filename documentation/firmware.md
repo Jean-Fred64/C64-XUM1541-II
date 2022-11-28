@@ -79,7 +79,7 @@ d64copy.exe 8 test.d64
 
 If all goes well, this should make a copy of the disk in drive 8 to a file called *test.d64*. There is a more comprehensive manual that comes with opencbm, it goes into a lot more detail when it comes to describing the various functions that can be performed when using a XUM1541-device. 
 
-Check out the software directory of this [project](https://github.com/tebl/C64-XUM1541-II/tree/main/software) for a selection of batch-files, they should help somewhat in automating basic tasks and they are what I'm using at this point. There are a few graphical programs made for it, but I find the command line a lot quicker in practice. The *copy.bat* file takes a number as a  parameter, it will then read side A of the disk inserted and then prompt you to turn over the disk before copying side B (it'll one d64-file for each in a sub-directory named disks). 
+Check out the software directory of this [project](https://github.com/Jean-Fred64/C64-XUM1541-II/tree/main/software) for a selection of batch-files, they should help somewhat in automating basic tasks and they are what I'm using at this point. There are a few graphical programs made for it, but I find the command line a lot quicker in practice. The *copy.bat* file takes a number as a  parameter, it will then read side A of the disk inserted and then prompt you to turn over the disk before copying side B (it'll one d64-file for each in a sub-directory named disks). 
 ```
 copy.bat 16
 ```
