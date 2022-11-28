@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name artwork)(type KiCad)(uri $KIPRJMOD/../../common/modules/artwork.pretty)(options "")(descr ""))
-)
