@@ -60,13 +60,13 @@ The faceplate is just a simple PCB, the suggested way of attaching it is by usin
 ## 1.3> Testing it out
 When ready to test things out, we need to do some safety notifications - mainly, you can't buy any new and unused Commodore 1541 disk drives so treat them with care. They aren't plug and play like we're used to today, if you start plugging and unplugging cables while things are powered on you should probably say a prayer. Neither probably won't actually cause your vintage computer hardware to explode, but it'll happily kill your hardware in less spectacular ways. Got that? Good.
 
-Ensure that the 1541 disk drive as well as the C64 XUM1541-II is not powered on, now connect the  IEC cable between them. Power on the disk drive, then plug the device into your modern computer. Go through the final section of my [firmware]([document](https://github.com/tebl/C64-XUM1541-II/blob/main/documentation/firmware.md)) document for some initial hints on copying your first disk, check out the software directory for a few of the batch files I personally use with the device if you just want some basic functionality without looking into all of the options (see OpenCBM documentation for that).
+Ensure that the 1541 disk drive as well as the C64 XUM1541-II is not powered on, now connect the  IEC cable between them. Power on the disk drive, then plug the device into your modern computer. Go through the final section of my [firmware](https://github.com/Jean-Fred64/C64-XUM1541-II/blob/Jean-Fred/documentation/firmware.md) document for some initial hints on copying your first disk.
 
 # 2> Schematic
 The schematic is also available in [PDF-format](https://github.com/Jean-Fred64/C64-XUM1541-II/blob/Jean-Fred/documentation/schematic/C64%20XUM1541-II.pdf)
 
 # 3> BOM
-Most parts should be easy to get a hold of from your favourite local electronic component shop, but given that I don't have access to such shops where I live so everything was based on whatever I could get cheapest from eBay/AliExpress (free shipping, but plan on waiting 3-4 weeks for delivery). 
+Most parts should be easy to get a hold of from your favourite local electronic component shop.
 
 | Reference             | Item                                                              | Count | Order  |
 | --------------------- | ----------------------------------------------------------------- | ----- | ------ |
