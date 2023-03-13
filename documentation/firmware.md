@@ -41,7 +41,7 @@ At this point the Arduino Pro Micro has seized being an Arduino Pro Micro, it is
 
 [Tuto YouTube](https://youtu.be/cFtD7RJBs0s) |
 <a href="https://youtu.be/cFtD7RJBs0s" target="_blank">Tuto YouTube</a>
-
+<a href="placeholder.com" target="_blank">Opens in new tab</a>
 
 ## 1.2> Install USB-driver
 The next step is installing a USB-driver suitable for use with the XUM1541, the easiest way of doing this is by using a driver installer called [Zadig](https://zadig.akeo.ie/). List all devices from the *options* dropdown-menu, then locate the XUM1541 device in the device listing. In the target section of the driver selection, click up/down until it says **libusb-win32**. Now you can finally click install/reinstall driver in a form that should hopefully work (refer to picture below if needed).
