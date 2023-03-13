@@ -37,7 +37,7 @@ At this point the Arduino Pro Micro has seized being an Arduino Pro Micro, it is
 
 ## 1.1.2> YT tuto install XUM1541-II
 
-[![Tuto YouTube](https://github.com/Jean-Fred64/C64-XUM1541-II/blob/Jean-Fred/gallery/C64C%20modding%201541-II%20YT.png)](https://youtu.be/cFtD7RJBs0s?t=94)
+[![Tuto YouTube](https://github.com/Jean-Fred64/C64-XUM1541-II/blob/Jean-Fred/gallery/C64C%20modding%201541-II%20YT_.png)](https://youtu.be/cFtD7RJBs0s?t=94)
 
 
 ## 1.2> Install USB-driver
