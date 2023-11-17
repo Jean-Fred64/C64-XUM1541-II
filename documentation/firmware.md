@@ -54,6 +54,9 @@ Try installing the **libusbK (v3.1.0.0)** or **WinUSB (v6.1.7600.16385)** driver
 
 Remember earlier when we checked out *Device Manager*? Before continuing I recommend ensuring that the XUM1541 is now listed as expected, it should now show up in a different section than where we found the Arduino Pro Micro (back when it was an Arduino). For reference, see the picture below.
 
+**NB!** If everything seems to be going wrong (the peripheral is no longer recognized), you can connect the XUM 1541-II card to another PC and return to your installation PC.
+I've had this problem on some rather surly PCs
+
 ![Device Manager](https://github.com/tebl/C64-XUM1541-II/raw/main/gallery/documentation/device_manager2.png)
 
 ## 1.3> Install OpenCBM
